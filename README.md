@@ -1,1 +1,1 @@
-# rsschool-cv
+## https://serafim1337.github.io/rsschool-cv/cv
