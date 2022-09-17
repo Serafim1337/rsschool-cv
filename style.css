@@ -188,6 +188,7 @@ h3 {
 }
 
 .video_class {
+  border: 0px;
   width: 100%;
   display: block;
   background-color: var(--block-color);
