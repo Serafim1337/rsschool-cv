@@ -220,9 +220,49 @@ h3 {
   font-style: italic;
 }
 
-.labs_link:hover {
+/* .labs_link:hover {
   background-color: var(--hover-color);
   padding: 15px;
+} */
+
+.certificates_list {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 30px;
+ justify-content: center;
+  margin-bottom: 30px;
+}
+
+.certificate_card {
+  max-width: 312px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid var(--white-color);
+  box-shadow: var(--box-shadow-default);
+  color: var(--white-color);
+  transition: 0.3s linear;
+}
+
+.certificate_card a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+/*--------------------------------------------------- exp section  */
+
+.experience_container {
+  background-color:var(--block-color);
+  box-shadow: var(--box-shadow-default);
+  box-sizing: border-box;
+  padding: 20px;
+  color: var(--white-color);
+  line-height: 30px;
+  margin: 50px auto;
+}
+
+.experience_link {
+  color: var(--white-color);
+  font-style: italic;
 }
 
 /*--------------------------------------------------- code section  */
@@ -253,11 +293,14 @@ h3 {
 
 .projects_list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 30px;
+  gap: 30px;
 }
 
 .project_card {
+  max-width: 312px;
   text-align: center;
   padding: 5px;
   border: 1px solid var(--white-color);
