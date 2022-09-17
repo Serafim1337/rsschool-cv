@@ -1,0 +1,13 @@
+/* general */
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+@font-face {
+  font-family: Poppins Reg;
+  src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+/* header */
+
