@@ -103,7 +103,7 @@
                 <ul>
                     <li><strong>Java</strong>
                         <ul>
-                            <li>Java EE (Java Servlets, JSP, Hibernate, TCP/IP&UDP Client-Server)</li>
+                            <li>Java EE (Java Servlets, JSP, Hibernate, TCP/IP&amp;UDP Client-Server)</li>
                             <li>Java SE (Swing)</li>
                             <li>JDBC</li>
                             <li>Java FX (Scene Builder)</li>
@@ -158,7 +158,7 @@
                         return 0;
                     } else {
                         let arrToSort = arr.slice();
-                        arrToSort.sort( (a,b) => (a - b));
+                        arrToSort.sort( (a,b) =&gt; (a - b));
                         return arrToSort[0];
                     }
                     }
@@ -168,7 +168,7 @@
                         return 0;
                     } else {
                         let arrToSort = arr.slice();
-                        arrToSort.sort( (a,b) => (b - a));
+                        arrToSort.sort( (a,b) =&gt; (b - a));
                         return arrToSort[0];
                         }
                     }
@@ -177,7 +177,7 @@
                     if(arguments.length === 0 || arr.length === 0) {
                         return 0;
                     } else {
-                        let sum = +arr.reduce( (previous, current) => {
+                        let sum = +arr.reduce( (previous, current) =&gt; {
                         return  previous + current;
                         },0);
                         let avg = sum / arr.length;
